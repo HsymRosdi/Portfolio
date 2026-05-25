@@ -121,7 +121,7 @@ Key features:
   {
     id: 'weather-app',
     number: '04',
-    title: 'Aether Weather App',
+    title: 'Weather App',
     shortDesc: 'A real-time weather application built with React and Vite, featuring dynamic theme backgrounds, glassmorphism UI and live atmospheric data from OpenWeatherMap.',
     fullDesc: `Designed and developed a premium real-time weather web application using React (Vite) and the OpenWeatherMap API, with a focus on polished UI and smooth user experience.
 
@@ -135,7 +135,7 @@ Key features:
 - Structured the codebase using professional Git branching workflow (feat/, fix/, chore/) with environment variable protection for API key security
 - Deployed with mobile-first responsive design supporting viewports from 360px to desktop`,
     tags: ['React', 'Vite', 'OpenWeatherMap API', 'CSS', 'Git'],
-    github: 'https://github.com/HsymRosdi/weather-app',
+    github: 'https://github.com/HsymRosdi/WeatherApp',
     demo: null,
     year: '2026',
     status: 'Personal Project',
