@@ -135,7 +135,7 @@ Key features:
 - Structured the codebase using professional Git branching workflow (feat/, fix/, chore/) with environment variable protection for API key security
 - Deployed with mobile-first responsive design supporting viewports from 360px to desktop`,
     tags: ['React', 'Vite', 'OpenWeatherMap API', 'CSS', 'Git'],
-    github: 'https://github.com/HsymRosdi/weather-app',
+    github: 'https://github.com/HsymRosdi/WeatherApp',
     demo: null,
     year: '2026',
     status: 'Personal Project',
