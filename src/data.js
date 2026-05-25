@@ -121,7 +121,7 @@ Key features:
   {
     id: 'weather-app',
     number: '04',
-    title: 'Aether Weather App',
+    title: 'Weather App',
     shortDesc: 'A real-time weather application built with React and Vite, featuring dynamic theme backgrounds, glassmorphism UI and live atmospheric data from OpenWeatherMap.',
     fullDesc: `Designed and developed a premium real-time weather web application using React (Vite) and the OpenWeatherMap API, with a focus on polished UI and smooth user experience.
 
