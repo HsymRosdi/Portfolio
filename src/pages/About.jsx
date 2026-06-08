@@ -19,13 +19,13 @@ export default function About() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%,300px), 1fr))', gap: '3rem', marginBottom: '4rem' }}>
         <div>
           <p style={bodyText}>
-            I'm <span style={{ color: '#fff' }}>Muhammad Hasyiem Bin Rosdi</span>, a final-year Computer Science student at Sheffield Hallam University, graduating in May 2026, on track for a First-Class Honours degree.
+            I'm <span style={{ color: '#fff' }}>Muhammad Hasyiem Bin Rosdi</span>, a recent Computer Science graduate with First Class Honours from Sheffield Hallam University (2026), based in Selangor, Malaysia.
           </p>
           <p style={{ ...bodyText, marginTop: '1rem' }}>
-            I have hands-on experience building web and mobile applications through academic projects and a software engineering internship. I'm passionate about creating user-focused digital solutions, with a particular interest in front-end and full-stack development.
+            I have hands-on experience building web and mobile applications through academic projects and a software engineering internship. I'm passionate about creating user-focused digital solutions with a keen interest in cybersecurity and secure software development.
           </p>
           <p style={{ ...bodyText, marginTop: '1rem' }}>
-            I'm actively looking for a graduate software engineering role where I can grow, contribute, and ship products that make a difference.
+            I'm actively looking for a graduate software engineering role where I can grow, contribute, and build products that make a difference.
           </p>
 
           <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -53,8 +53,21 @@ export default function About() {
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-          <TerminalCard title="soft_skills.txt" items={['Problem Solving', 'Teamwork & Collaboration', 'Time Management', 'Adaptability', 'Analytical Thinking']} />
-          <TerminalCard title="achievements.txt" items={["Dean's Award 2021–2024 (all 6 semesters)", 'Diploma CGPA 3.72', 'On track for First-Class Honours', 'F&B Officer · Sheffield Malaysian Games']} />
+          <TerminalCard title="soft_skills.txt" items={[
+            'Problem Solving',
+            'Teamwork & Collaboration',
+            'Time Management',
+            'Adaptability',
+            'Analytical Thinking',
+            'Stakeholder Communication',
+          ]} />
+          <TerminalCard title="achievements.txt" items={[
+            'First Class Honours — BSc Computer Science 2026',
+            'Hallam Bronze Award — Sheffield Hallam University',
+            "Dean's Award 2021–2024 (all 6 semesters)",
+            'Diploma CGPA 3.72',
+            'F&B Officer · Sheffield Malaysian Games',
+          ]} />
         </div>
       </div>
 

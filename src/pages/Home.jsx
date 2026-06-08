@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { profile, projects } from '../data';
 
-const TYPED_TEXT = `// Aspiring Software Engineer`;
+const TYPED_TEXT = `// Graduate Software Engineer`;
 
 export default function Home() {
   const [typed, setTyped] = useState('');
@@ -84,14 +84,31 @@ export default function Home() {
               <Link to="/contact" style={btnOutline}>Get in touch</Link>
             </div>
 
-            <div className="fade-up d5" style={{ display: 'flex', gap: 'clamp(1.5rem,4vw,3rem)', marginTop: '4rem', borderTop: '1px solid var(--border)', paddingTop: '2rem', flexWrap: 'wrap' }}>
-              {[['3+', 'Projects built'], ['3.72', 'Diploma CGPA'], ['2026', 'Graduating May']].map(([val, label]) => (
-                <div key={label}>
-                  <p style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px,4vw,32px)', fontWeight: 800, color: 'var(--green)' }}>{val}</p>
-                  <p style={{ fontSize: '11px', color: 'var(--muted)', letterSpacing: '1px', textTransform: 'uppercase', marginTop: '2px' }}>{label}</p>
-                </div>
-              ))}
-            </div>
+            <div className="fade-up d5" style={{ marginTop: '4rem', borderTop: '1px solid var(--border)', paddingTop: '2rem' }}>
+  
+  {/* Grades */}
+  <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
+    <div style={{ background: 'var(--bg2)', border: '1px solid var(--green)', padding: '10px 18px' }}>
+      <p style={{ fontSize: '11px', color: 'var(--muted)', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '4px' }}>BSc Computer Science</p>
+      <p style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 800, color: 'var(--green)' }}>First Class Honours</p>
+    </div>
+    <div style={{ background: 'var(--bg2)', border: '1px solid var(--border)', padding: '10px 18px' }}>
+      <p style={{ fontSize: '11px', color: 'var(--muted)', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '4px' }}>Diploma Computer Science</p>
+      <p style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 800, color: 'var(--green)' }}>CGPA 3.72</p>
+    </div>
+  </div>
+
+  {/* Stats */}
+  <div style={{ display: 'flex', gap: 'clamp(1.5rem,4vw,3rem)', flexWrap: 'wrap' }}>
+    {[['2026', 'Graduate']].map(([val, label]) => (
+      <div key={label}>
+        <p style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px,4vw,32px)', fontWeight: 800, color: 'var(--green)' }}>{val}</p>
+        <p style={{ fontSize: '11px', color: 'var(--muted)', letterSpacing: '1px', textTransform: 'uppercase', marginTop: '2px' }}>{label}</p>
+      </div>
+    ))}
+  </div>
+
+</div>
           </div>
 
 

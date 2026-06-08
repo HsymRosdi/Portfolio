@@ -23,6 +23,7 @@ export default function Navbar() {
     { label: 'About',    to: '/about' },
     { label: 'Projects', to: '/projects' },
     { label: 'Contact',  to: '/contact' },
+    { label: 'Certificate',  to: '/certificate' },
   ];
 
   const isActive = (to) => location.pathname === to;

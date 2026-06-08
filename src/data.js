@@ -6,9 +6,9 @@ export const profile = {
   name: 'Muhammad Hasyiem',
   shortName: 'Hasyiem',
   role: 'Aspiring Software Engineer',
-  tagline: 'Final-year CS student at Sheffield Hallam University, graduating May 2026. Passionate about building user-focused web and mobile applications, with an ongoing interest in cybersecurity research.',
+  tagline: 'Recent Computer Science graduate (First Class Honours, Sheffield Hallam University, 2026) with hands-on experience in full-stack web and mobile development. Passionate about building user-focused digital solutions with a keen interest in cybersecurity and secure software development.',
   location: 'Selangor, Malaysia',
-  status: 'Graduating May 2026 · Open to roles',
+  status: 'Graduate · Open to opportunities',
   phone: '+44 7775 485796',
   github: 'https://github.com/HsymRosdi',
   linkedin: 'https://www.linkedin.com/in/hasyiem-rosdi/',
@@ -17,13 +17,13 @@ export const profile = {
 
 export const education = [
   {
-    school: 'Sheffield Hallam University',
-    location: 'Sheffield, United Kingdom',
-    degree: 'BSc (Hons) Computer Science',
-    period: 'September 2024 – Present',
-    notes: 'Final-year student, on track for First-Class Honours.',
-    highlight: 'Final Year Project: Full-stack Perfume Shop Web App with React, Node.js, Firebase & a personality-based recommendation system.',
-  },
+  school: 'Sheffield Hallam University',
+  location: 'Sheffield, United Kingdom',
+  degree: 'BSc (Hons) Computer Science',
+  period: 'September 2024 – June 2026',
+  notes: 'Graduated with First Class Honours.',
+  highlight: 'Final Year Project: Full-stack Perfume Shop with React, Firebase & personality-based recommendation engine.',
+},
   {
     school: 'University Poly-Tech Malaysia',
     location: 'Kuala Lumpur, Malaysia',
@@ -54,6 +54,27 @@ export const skills = [
   { category: 'Frameworks',        items: ['React', 'Node.js', 'Flutter', 'Laravel'] },
   { category: 'Databases',         items: ['MySQL', 'Firebase Firestore'] },
   { category: 'Tools & Platforms', items: ['Git', 'GitHub', 'XAMPP', 'Laragon', 'SourceTree'] },
+];
+
+export const Cert =[
+
+  {
+    id: 'cert-1',
+    name: 'Certificate Name Here',
+    issuer: 'Issuer Name Here',
+    year: '2024',
+    image: '/hackerrank SE.png',
+    credentialUrl: null,
+  },
+
+  {
+    id: 'cert-2',
+    name: 'React (basic)',
+    issuer: 'HackerRank',
+    year: '2026',
+    image: 'hackerrank React(basic).png',
+    credentialUrl: null,
+  },
 ];
 
 export const projects = [

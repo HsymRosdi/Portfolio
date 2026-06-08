@@ -9,6 +9,7 @@ import About         from './pages/About';
 import Projects      from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact       from './pages/Contact';
+import Certificate       from './pages/Certificate';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/projects"          element={<Projects />} />
           <Route path="/projects/:id"      element={<ProjectDetail />} />
           <Route path="/contact"           element={<Contact />} />
+          <Route path="/certificate"           element={<Certificate />} />
           <Route path="*"                  element={<Home />} />
         </Routes>
         <Footer />
