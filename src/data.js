@@ -9,7 +9,7 @@ export const profile = {
   tagline: 'Recent Computer Science graduate (First Class Honours, Sheffield Hallam University, 2026) with hands-on experience in full-stack web and mobile development. Passionate about building user-focused digital solutions with a keen interest in cybersecurity and secure software development.',
   location: 'Selangor, Malaysia',
   status: 'Graduate · Open to opportunities',
-  phone: '+44 7775 485796',
+  phone: '+60 122516657',
   github: 'https://github.com/HsymRosdi',
   linkedin: 'https://www.linkedin.com/in/hasyiem-rosdi/',
   email: 'hasyiem2003@gmail.com',
